@@ -21,6 +21,7 @@ if sys.version_info[:2] == (3, 7):
         "Python 3.7 is no longer supported by the Python core team "
         "and support for it is deprecated in cryptography. A future "
         "release of cryptography will remove support for Python 3.7.",
+        "日本語だよーーー"
         utils.CryptographyDeprecationWarning,
         stacklevel=2,
     )
